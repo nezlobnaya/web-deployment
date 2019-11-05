@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import LoginForm from './component/LoginForm/LoginForm'
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Welcome to My Portfolio!
+          <LoginForm />
         </p>
       </header>
     </div>
